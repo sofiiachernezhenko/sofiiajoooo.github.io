@@ -68,6 +68,36 @@ a:hover {
     body {
         padding: 15px;
     }
+
+    /* Styling for knapp */
+button {
+    background-color: #ffeb3b;
+    color: #333;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for klokka */
+#klokke {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
     
     h1 {
         font-size: 2em;
