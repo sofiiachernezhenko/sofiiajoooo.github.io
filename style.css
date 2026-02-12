@@ -1,0 +1,75 @@
+/* Grunnleggende styling for hele siden */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+/* Container for innholdet */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for overskrifter */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #f0f0f0;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Styling for lister */
+ul {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Styling for lenker */
+a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responsive design for mobil */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
