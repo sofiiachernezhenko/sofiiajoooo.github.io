@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let index = 0;
   const total = photos.length;
   function showSlide(i){
-    slidesContainer.style.transform = translateX(-${i * 100}%);
+    slidesContainer.style.transform = `translateX(-${i * 100}%)`;
   }
 
   setInterval(() => {
