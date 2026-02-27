@@ -7,8 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const tid = nå.toLocaleTimeString('no-NO');
         const dato = nå.toLocaleDateString('no-NO');
         
-        document.getElementById('klokke');
-            klokkeEl.innerHTML = `
+        document.getElementById('klokke').innerHTML = `
                 <strong>Dagens dato:</strong> ${dato}<br>
                 <strong>Klokka er:</strong> ${tid}
             `;
